@@ -1,0 +1,181 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  background-color: #9d90ac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shape1 {
+  width: 300px;
+  height: 600px;
+  background: #8c84a9;
+  mix-blend-mode: multiply;
+  display:block;
+  position: absolute;
+  mix-blend-mode: multiply;
+  animation: 5s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+.shape1:hover {
+background-color: #8c84a9;
+}
+
+@keyframes fadeIn {
+0% {
+  opacity: 0;
+}
+100% {
+  visibility: visible;
+  opacity: 1;
+}
+}
+
+.shape2 {
+  width: 300px;
+  height: 600px;
+  background: #8c84a9;
+  transition-property: all;
+  transform: rotate(30deg);
+  display:block;
+  position: absolute;
+  mix-blend-mode: multiply;
+  animation: 5s fadeIn;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  visibility: hidden;
+}
+
+.shape2:hover {
+background-color: #8c84a9;
+}
+
+@keyframes fadeIn {
+0% {
+  opacity: 0;
+}
+100% {
+  visibility: visible;
+  opacity: 1;
+}
+}
+
+.shape3 {
+  width: 300px;
+  height: 600px;
+  background: #8c84a9;
+  transition-property: all;
+  transform: rotate(60deg);
+  display:block;
+  position: absolute;
+  mix-blend-mode: multiply;
+  animation: 5s fadeIn;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
+  visibility: hidden;
+}
+
+.shape3:hover {
+background-color: #8c84a9;
+}
+
+@keyframes fadeIn {
+0% {
+  opacity: 0;
+}
+100% {
+  visibility: visible;
+  opacity: 1;
+}
+}
+
+.shape4 {
+  width: 300px;
+  height: 600px;
+  background: #8c84a9;
+  transition-property: all;
+  transform: rotate(90deg);
+  display:block;
+  position: absolute;
+  mix-blend-mode: multiply;
+  animation: 5s fadeIn;
+  animation-fill-mode: forwards;
+  animation-delay: 9s;
+  visibility: hidden;
+}
+
+.shape4:hover {
+background-color: #8c84a9;
+}
+
+@keyframes fadeIn {
+0% {
+  opacity: 0;
+}
+100% {
+  visibility: visible;
+  opacity: 1;
+}
+}
+
+.shape5 {
+  width: 300px;
+  height: 600px;
+  background: #8c84a9;
+  transition-property: all;
+  transform: rotate(120deg);
+  display:block;
+  position: absolute;
+  mix-blend-mode: multiply;
+  animation: 5s fadeIn;
+  animation-fill-mode: forwards;
+  animation-delay: 12s;
+  visibility: hidden;
+}
+
+.shape5:hover {
+background-color: #8c84a9;
+}
+
+@keyframes fadeIn {
+0% {
+  opacity: 0;
+}
+100% {
+  visibility: visible;
+  opacity: 1;
+}
+}
+
+.shape6 {
+  width: 300px;
+  height: 600px;
+  background: #8c84a9;
+  transition-property: all;
+  transform: rotate(150deg);
+  display:block;
+  position: absolute;
+  mix-blend-mode: multiply;
+  animation: 5s fadeIn;
+  animation-fill-mode: forwards;
+  animation-delay: 15s;
+  visibility: hidden;
+}
+
+.shape6:hover {
+background-color: #8c84a9;
+}
+
+@keyframes fadeIn {
+0% {
+  opacity: 0;
+}
+100% {
+  visibility: visible;
+  opacity: 1;
+}
+}

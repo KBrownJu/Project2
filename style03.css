@@ -1,0 +1,180 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  background-color: #f9f1e4;
+}
+
+.Link{
+  display: inline;
+  align-content: center;
+  justify-content: center;
+}
+
+.shape1 {
+  width: 500px;
+  height: 100px;
+  background: #484a70;
+  margin-left:700px;
+  margin-top: 120px;
+  transform: rotate(3deg);
+  animation: shape1 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: none;
+}
+
+@keyframes shape1 {
+  0% {
+    background-color: #484a70;
+  }
+  100% {
+    background-color: #dc8675;
+  }
+}
+
+.shape2 {
+  width: 500px;
+  height: 100px;
+  background: #5d758f;
+  margin-left:710px;
+  margin-top:0px;
+  transform: rotate(179deg);
+  animation: shape2 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: none;
+}
+
+@keyframes shape2 {
+  0% {
+    background-color: #5d758f;
+  }
+  100% {
+    background-color: #c35a47;
+  }
+}
+
+.shape3 {
+  width: 500px;
+  height: 100px;
+  background: #6c8dae;
+  margin-left:730px;
+  margin-top:-30px;
+  transform: rotate(4deg);
+  animation: shape3 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: none;
+}
+
+@keyframes shape3 {
+  0% {
+    background-color: #6c8dae;
+  }
+  100% {
+    background-color: #bf5859;
+  }
+}
+
+
+.shape4 {
+  width: 500px;
+  height: 100px;
+  background: #526698;
+  margin-left: 650px;
+  margin-top: -30px;
+  transform: rotate(7deg);
+  animation: shape4 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: none;
+}
+
+@keyframes shape4 {
+  0% {
+    background-color: #526698;
+  }
+  100% {
+    background-color: #913c35;
+  }
+}
+
+.shape5 {
+  width: 500px;
+  height: 100px;
+  background: #486390;
+  margin-left: 700px;
+  margin-top:-20px;
+  transform: rotate(12deg);
+  animation: shape5 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: none;
+}
+
+@keyframes shape5 {
+  0% {
+    background-color: #486390;
+  }
+  100% {
+    background-color: #c26d6a;
+  }
+}
+
+.shape6 {
+  width: 500px;
+  height: 100px;
+  background: #393c71;
+  margin-left: 500px;
+  margin-top: -30px;
+  transform: rotate(7deg);
+  animation: shape6 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: none;
+}
+
+@keyframes shape6 {
+ 0% {
+   background-color: #393c71;
+ }
+ 100% {
+   background-color: #8a3d45;
+ }
+}
+
+.shape7 {
+  width: 500px;
+  height: 100px;
+  background: #2e3045;
+  margin-left:700px;
+  margin-top: 0px;
+  transform: rotate(178deg);
+  animation: shape7 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: none;
+}
+
+@keyframes shape7 {
+ 0% {
+   background-color: #2e3045;
+ }
+ 100% {
+   background-color: #ae4532;
+ }
+}
+.shape8 {
+  width: 500px;
+  height: 100px;
+  background: #6d7288;
+  margin-left:650px;
+  margin-top:-30px;
+  transform: rotate(173deg);
+  animation: shape8 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: none;
+}
+
+@keyframes shape8 {
+ 0% {
+   background-color: #6d7288;
+ }
+ 100% {
+   background-color: #792a30;
+ }

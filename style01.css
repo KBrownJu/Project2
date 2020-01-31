@@ -1,0 +1,53 @@
+.shape {
+  height: 400px;
+  width: 400px;
+  background-color: #cc3635;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  float: left;
+  margin-right: 600px;
+  animation: shape1 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: none;
+}
+
+@keyframes shape1 {
+  0% {
+    background-color: #cc3635;
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
+
+.shape2 {
+  height: 400px;
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  float: left;
+  animation: shape2 4s infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: none;
+}
+
+@keyframes shape2 {
+  0% {
+    background-color: #ffffff;
+  }
+  100% {
+    background-color: #cc3635;
+  }
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
