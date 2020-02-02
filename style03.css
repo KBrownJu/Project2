@@ -6,6 +6,14 @@ body {
   background-color: #f9f1e4;
 }
 
+.maincontainer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
 .Link{
   display: inline;
   align-content: center;
@@ -16,8 +24,8 @@ body {
   width: 500px;
   height: 100px;
   background: #484a70;
-  margin-left:700px;
-  margin-top: 120px;
+  margin-left:200px;
+  margin-top: 0px;
   transform: rotate(3deg);
   animation: shape1 4s infinite;
   animation-direction: alternate-reverse;
@@ -37,7 +45,7 @@ body {
   width: 500px;
   height: 100px;
   background: #5d758f;
-  margin-left:710px;
+  margin-left:210px;
   margin-top:0px;
   transform: rotate(179deg);
   animation: shape2 4s infinite;
@@ -58,7 +66,7 @@ body {
   width: 500px;
   height: 100px;
   background: #6c8dae;
-  margin-left:730px;
+  margin-left:230px;
   margin-top:-30px;
   transform: rotate(4deg);
   animation: shape3 4s infinite;
@@ -80,7 +88,7 @@ body {
   width: 500px;
   height: 100px;
   background: #526698;
-  margin-left: 650px;
+  margin-left: 150px;
   margin-top: -30px;
   transform: rotate(7deg);
   animation: shape4 4s infinite;
@@ -101,7 +109,7 @@ body {
   width: 500px;
   height: 100px;
   background: #486390;
-  margin-left: 700px;
+  margin-left: 200px;
   margin-top:-20px;
   transform: rotate(12deg);
   animation: shape5 4s infinite;
@@ -122,7 +130,7 @@ body {
   width: 500px;
   height: 100px;
   background: #393c71;
-  margin-left: 500px;
+  margin-left: 0px;
   margin-top: -30px;
   transform: rotate(7deg);
   animation: shape6 4s infinite;
@@ -143,7 +151,7 @@ body {
   width: 500px;
   height: 100px;
   background: #2e3045;
-  margin-left:700px;
+  margin-left:200px;
   margin-top: 0px;
   transform: rotate(178deg);
   animation: shape7 4s infinite;
@@ -163,7 +171,7 @@ body {
   width: 500px;
   height: 100px;
   background: #6d7288;
-  margin-left:650px;
+  margin-left:150px;
   margin-top:-30px;
   transform: rotate(173deg);
   animation: shape8 4s infinite;
